@@ -1,4 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@500;700;800&display=swap");
+
 * {
-  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s linear;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: 2rem;
+  color: rgb(8, 8, 8);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.main h2 {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  padding: 15px;
+  text-transform: capitalize;
+  margin-left: 30px;
+}
+
+form button {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  margin-left: 60%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.main button {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #333;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add {
+  margin: 0 70px;
+  align-items: center;
+}
+
+.leaderboard {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.scorelist {
+  list-style: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
 }
