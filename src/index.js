@@ -1,4 +1,4 @@
-// import "./styles.css";
+import './styles.css';
 import displayScore from './crud';
 import API_URL from './working';
 import postData from './display';
